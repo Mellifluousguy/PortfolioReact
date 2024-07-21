@@ -49,7 +49,7 @@ I am Mohit Gupta, a Bachelor of Computer Application student at Techno Institute
 - **Description:** An e-commerce website created using HTML and CSS.
 - **Link:** [E-commerce Website](https://github.com/Mellifluousguy/E-commerce)
 - **Image:**
-  ![E-commerce Website](.src/Components/Assets/Projects/Ecommerce.png)
+  ![E-commerce Website](./src/Components/Assets/Projects/Ecommerce.png)
 
 ### Login Card
 - **Description:** A login card designed with HTML and CSS.
