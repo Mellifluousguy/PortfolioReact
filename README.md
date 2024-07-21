@@ -78,10 +78,11 @@ To run this project locally, follow these steps:
    npm start 
 2. Open your browser and go to http://localhost:3000 to view the portfolio.
 
-### Contact
+## Contact
 
-Feel free to reach out to me through the following platforms:
+Feel free to reach me out throught different platforms
 
+- **Name:** Mohit Gupta
 - **Email:** mohitdeveloperg@gmail.com
-- **LinkedIn:** linkedin.com/in/mellifluousguy
-- **GitHub:** github.com/Mellifluousguy
+- **GitHub:** [Mellifluousguy](https://github.com/Mellifluousguy)
+- **LinkedIn:** [mellifluousguy](https://linkedin.com/in/mellifluousguy)
