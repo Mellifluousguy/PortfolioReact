@@ -37,25 +37,25 @@ I am Mohit Gupta, a Bachelor of Computer Application student at Techno Institute
 - **Description:** A service-based website built using React and React Routing.
 - **Link:** [Mecode](https://github.com/Mellifluousguy/MeCode_Hub/)
 - **Image:**
-  ![Mecode](./src/Assets/Projects/mecode.png)
+  ![Mecode](./src/Components/Assets/Projects/mecode.png)
 
 ### Homepage Replica
 - **Description:** A homepage replica made using HTML and CSS.
 - **Link:** [Homepage Replica](https://github.com/Mellifluousguy/Responsive-Homepage-Replica)
 - **Image:**
-  ![Homepage Replica](./src/Assets/Projects/Webpage.png)
+  ![Homepage Replica](./src/Components/Assets/Projects/Webpage.png)
 
 ### E-commerce Website
 - **Description:** An e-commerce website created using HTML and CSS.
 - **Link:** [E-commerce Website](https://github.com/Mellifluousguy/E-commerce)
 - **Image:**
-  ![E-commerce Website](./src/Assets/Projects/Ecommerce.png)
+  ![E-commerce Website](.src/Components/Assets/Projects/Ecommerce.png)
 
 ### Login Card
 - **Description:** A login card designed with HTML and CSS.
 - **Link:** [Login Card](https://github.com/Mellifluousguy/Card)
 - **Image:**
-  ![Login Card](./src/Assets/Projects/card.png)
+  ![Login Card](./src/Components/Assets/Projects/card.png)
 
 ## Installation
 
