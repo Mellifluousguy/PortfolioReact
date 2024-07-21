@@ -1,0 +1,86 @@
+#project h1 {
+    margin-bottom: 10px;
+}
+
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover img {
+
+    transform: scale(1.1);
+}
+
+.project-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-card:hover .project-content {
+    opacity: 1;
+}
+
+.project-content h2 {
+    margin: 0;
+}
+
+.project-content a {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .dark #project .graphics,
+    .light #project .graphics {
+        margin: 0;
+    }
+
+    .dark #project .project-card,
+    .light #project .project-card {
+        width: 150px;
+        height: 150px;
+        font-size: 12px;
+    }
+
+    .dark #project .project-card h2,
+    .light #project .project-card h2 {
+        font-size: 14px;
+    }
+}

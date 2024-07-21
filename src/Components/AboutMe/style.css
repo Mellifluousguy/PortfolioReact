@@ -1,0 +1,28 @@
+#About-Me .graphics img {
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
+    width: 20%;
+}
+
+#About-Me .graphics {
+    width: 50%;
+    font-size: small;
+}
+
+.dark #About-Me .graphics img {
+    border: #008080 5px solid;
+}
+
+@media (max-width: 768px) {
+
+    .dark #About-Me .graphics,
+    .light #About-Me .graphics {
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .dark #About-Me .graphics img,
+    .light #About-Me .graphics img {
+        width: 30%;
+    }
+}

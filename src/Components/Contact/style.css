@@ -1,0 +1,165 @@
+#contactPage .graphics .content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+
+
+.graphics .message input,
+.graphics .message textarea {
+    background: transparent;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border: .5px solid rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px 15px;
+    width: 70%;
+    resize: none;
+    margin: 10px 0;
+}
+
+.graphics .message input:focus,
+.graphics .message textarea:focus {
+    border: 1px solid #2F4F4F;
+}
+
+.graphics .message form div {
+    position: relative;
+}
+
+.dark .graphics .message form label {
+    background: #008080;
+}
+
+.graphics .message form label {
+    position: absolute;
+    left: 20%;
+    top: -2%;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.graphics .message form button {
+    width: 40%;
+    padding: 10px 8px;
+    border-radius: 50px;
+    border: 1px solid #2d2d2d;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+
+.message form button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.graphics .SocialMedia {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 10%;
+}
+
+.SocialMedia .social {
+    padding: 25px 0;
+    border-radius: 15px;
+    /* border: 1px solid #2d2d2d; */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.SocialMedia .social:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.graphics .SocialMedia img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.graphics .SocialMedia a {
+    color: white;
+}
+
+.message,
+.SocialMedia {
+    margin: 5% 0;
+}
+
+@media (max-width: 768px) {
+    .light #contactPage {
+
+        background: #87ceeb;
+    }
+
+    .dark #contactPage,
+    .light #contactPage {
+        display: flex;
+        height: 140vh;
+        justify-content: center;
+    }
+
+    .light #contactPage .graphics .content,
+    .dark #contactPage .graphics .content {
+        grid-template-columns: 100%;
+    }
+
+    .light .graphics .message {
+        width: 100%;
+    }
+
+
+    .light .graphics .message form {
+        width: 100%;
+    }
+
+    .light .graphics .message input,
+    .dark .graphics .message input,
+    .dark .graphics .message textarea,
+    .light .graphics .message textarea {
+        width: 100%;
+    }
+
+    .dark .graphics .message input,
+    .dark .graphics .message textarea {
+        color: white;
+    }
+
+    .dark #contactPage .graphics,
+    .light #contactPage .graphics {
+        height: 140vh;
+        margin-top: 10%;
+        padding-bottom: 10%;
+    }
+
+
+    .light #contactPage a,
+    .dark #contactPage a {
+        margin-top: 10%;
+    }
+
+    .light #contactPage label,
+    .dark #contactPage label {
+        left: 5%;
+        top: 1%;
+    }
+
+    .light #contactPage label {
+        background: #6495ed;
+
+    }
+
+    .dark #contactPage label {
+        background: #2d2d2d;
+    }
+
+    .Notification {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translate(-50%, -50%);
+        height: fit-content;
+        backdrop-filter: blur(15px);
+    }
+}
