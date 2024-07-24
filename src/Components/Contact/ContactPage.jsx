@@ -92,7 +92,7 @@ const ContactPage = () => {
               <SocialMedia
                 title="GitHub"
                 img="https://static-00.iconduck.com/assets.00/github-icon-2048x2048-qlv5m092.png"
-                link="https://github.com.mellifluousguy"
+                link="https://github.com/mellifluousguy"
               />
             </div>
           </div>
