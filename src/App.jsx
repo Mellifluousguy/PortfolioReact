@@ -12,19 +12,23 @@ import React, { useState, useEffect } from "react";
 import Loader from "./Components/Loader/loader";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const toggleTheme = () => {
     setIsDarkMode((prevMode) => !prevMode);
   };
 
-  const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const handlePageLoad = () => setLoading(false);
-
-    window.addEventListener("load", handlePageLoad);
+    
+    if (document.readyState === 'complete') {
+      handlePageLoad();
+    } else {
+      window.addEventListener("load", handlePageLoad);
+    }
 
     return () => {
       window.removeEventListener("load", handlePageLoad);
