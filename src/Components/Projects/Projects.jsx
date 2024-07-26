@@ -6,6 +6,7 @@ import card from "../Assets/Projects/card.png"
 import './style.css'
 
 const Feedback = () => {
+  const CV = `https://drive.google.com/uc?export=download&id=1RsRLiDucNiyILlkMOp7f9GTzBjLPO8F6`;
   const projects = [
     {
       title: "Mecode",
@@ -57,6 +58,7 @@ const Feedback = () => {
                 </div>
               ))}
             </div>
+          <Link to=`${CV}`><li>{'Download CV'}</li></Link>
           </div>
       </div>
     </div>
