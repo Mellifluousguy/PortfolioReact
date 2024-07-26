@@ -73,6 +73,7 @@
 
     .dark #project .graphics,
     .light #project .graphics {
+        top: 50%;
         margin: 0;
     }
 
