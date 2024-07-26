@@ -3,6 +3,10 @@
 }
 
 
+#project .graphics {
+    top: 55%;
+    padding: 15px 25px;
+}
 .projects-list {
     display: flex;
     flex-wrap: wrap;
